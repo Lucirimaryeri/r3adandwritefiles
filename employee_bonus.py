@@ -10,7 +10,7 @@ for rec in employee_file:
     l_name = rec[2]
     salary = float(rec[3])
     bonus = float(rec[4]) * salary
-    total_pay = float(rec[3] + rec[4])
+    total_pay = float(rec[3]) + bonus
 
     fullname = rec[1] + ' ' + rec[2]
 
